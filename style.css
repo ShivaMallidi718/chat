@@ -1,0 +1,60 @@
+body{
+    height: 95vh;
+}
+#container{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+}
+#container div{
+    width: fit-content;
+    margin: 4px;
+}
+.message{
+    background-color: rgb(100, 100, 100);
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+}
+h4,p,h6{
+    display: inline-block;
+    margin: 0;
+}
+h4{
+    color: yellow;
+}
+p{
+    color: white;
+    margin-right: 8px;
+}
+h6{
+    color: whitesmoke;
+}
+#user-message{
+    background-color: gray;
+    font-size: 1.1em;
+    color: white;
+    width: 70%;
+    padding: 10px;
+}
+button{
+    background-color: lime;
+    width: 20%;
+    padding: 10px;
+}
+#user-message,button{
+    border-radius: 25px;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+}
+::placeholder{
+    color: white;
+}
+#top{
+    display: block;
+    color: chocolate;
+    text-align: center;
+}
